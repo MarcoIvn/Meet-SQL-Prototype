@@ -1,0 +1,170 @@
+body {
+  margin:0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  background-color: rgb(240, 217, 208);
+}
+
+form{
+  padding: 50px 20px;
+  display: block;
+  background-color: rgb(199, 182, 162);
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+}
+
+input[type="text"], input[type="password"]{
+  outline: none;
+  padding: 20px;
+  display: block;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid rgb(229, 79, 15);
+  margin: 20px auto;
+}
+
+input[type="submit"]{
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  background: rgb(213, 129, 90);
+  width: 320px;
+  margin: 20px auto;
+  margin-top: 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  background-color: #e89349;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(43, 39, 39);
+  border-bottom: 2px solid gray;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  width: 100%;
+  min-height: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 100px;
+  padding-left: 35px;
+  margin-right: 13px;
+}
+
+.tituloCarniceria{
+  font-family: 'Fira Sans', sans-serif;
+  color: white;
+}
+
+nav h3{
+  font-size: 20px;
+  display: inline;
+  color: white;
+  padding-right: 90px;
+}
+
+nav a{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding-right: 45px;
+  padding-left: 40px;
+}
+
+.nav-link:hover{
+  color: #e89349;
+}
+
+@media (max-width:700px){
+  header{
+    flex-direction: column;
+  }
+}
+
+.menu{
+  padding: 0;
+  list-style: none;
+  background: rgb(208, 150, 150);
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  border-color: black;
+  border-radius: 20px;
+}
+
+.menu li a{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  padding: 40px;
+  display: block;
+}
+
+.menu li{
+  text-align: center;
+}
+
+.menu li:hover{
+  background: #ab503c;
+}
+
+.ok{
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  background-color: #4e8;
+  color: #fff;
+}
+
+.bad{
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  background-color: #a22;
+  color: #fff
+}
+
+.tabla{
+
+  list-style: none;
+  padding: 0;
+  background: #d79b66;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+
+}
+
+.tabla li{
+  display: inline-block;  
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.tabla li p{
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 40px;
+  display: inline-block;
+}

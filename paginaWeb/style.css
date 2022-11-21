@@ -1,0 +1,159 @@
+body{
+  text-align:center;
+}
+
+figure {
+  display:block;
+  margin: auto;
+}
+.titulo{
+text-align:center;
+font-size:45px;
+font-family:Arial;
+}
+/*body{
+  background-image: url("https://images3.alphacoders.com/741/74185.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;
+}*/
+.Opciones{
+text-align:center;
+}
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 150%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.page-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.mas-vendido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.producto-res {
+  margin: 150px;
+}
+
+.producto-res {
+  width: 300px;
+}
+
+.mas-vendido {
+  margin: 50px;
+}
+
+.mas-vendido {
+  width: 100px;
+}
+
+
+
+
+.button-add{
+  font-size: 16px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px 10px;
+  border: 2px solid;
+  transition-duration: 0.4;
+}
+
+.lsform{
+  padding: 50px 20px;
+  display: block;
+  background-color: rgb(121, 118, 115);
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+}
+
+.lsinput{
+  outline: none;
+  padding: 20px;
+  display: block;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid rgb(125, 59, 31);
+  margin: 20px auto;
+}
+
+.lssubmit{
+  display: block;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  background: rgb(143, 46, 2);
+  width: 320px;
+  margin: 20px auto;
+  margin-top: 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  background-color: #e89349;
+}
+
+.ok{
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  background-color: #4e8;
+  color: #fff;
+}
+
+.bad{
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  background-color: #a22;
+  color: #fff
+}
+
